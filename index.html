@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2812ab2d171bc5ec46c9464dbe43d3a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b2812ab2d171bc5ec46c9464dbe43d3a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b2812ab2d171bc5ec46c9464dbe43d3a = L.map(
+                "map_b2812ab2d171bc5ec46c9464dbe43d3a",
+                {
+                    center: [10.8231, 106.6297],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ca89966f2b4f3c57868709ccfee8ba6d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ca89966f2b4f3c57868709ccfee8ba6d.addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+            var marker_b1646e52cc2fa5cba3b8445a4a1d98a8 = L.marker(
+                [10.790984, 106.6344165],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_a90e0840afdddd451aa20fb69f2701be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1184985de00de95cf95975e91dfa6642 = $(`<div id="html_1184985de00de95cf95975e91dfa6642" style="width: 100.0%; height: 100.0%;">HÀ HIỂU - QL, Phường Tân Thành, Quận Tân Phú</div>`)[0];
+                popup_a90e0840afdddd451aa20fb69f2701be.setContent(html_1184985de00de95cf95975e91dfa6642);
+            
+        
+
+        marker_b1646e52cc2fa5cba3b8445a4a1d98a8.bindPopup(popup_a90e0840afdddd451aa20fb69f2701be)
+        ;
+
+        
+    
+    
+            var marker_49aca3f4ab883067392fad1e688ba974 = L.marker(
+                [10.7691254, 106.6487344],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_44e2011b820e30040d038ad23d14b26d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d18f4fa9696d1e6da8e465d0b7ad688 = $(`<div id="html_6d18f4fa9696d1e6da8e465d0b7ad688" style="width: 100.0%; height: 100.0%;">DUYÊN - QL*, Phường 14, Quận 11</div>`)[0];
+                popup_44e2011b820e30040d038ad23d14b26d.setContent(html_6d18f4fa9696d1e6da8e465d0b7ad688);
+            
+        
+
+        marker_49aca3f4ab883067392fad1e688ba974.bindPopup(popup_44e2011b820e30040d038ad23d14b26d)
+        ;
+
+        
+    
+    
+            var marker_8cc6a4a62880849a4d5bf1a580e788a3 = L.marker(
+                [10.8306721, 106.6151355],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_b6740c2b321a2a39478d470205d9d0e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84349520dbb950f06d0e6402f5d79291 = $(`<div id="html_84349520dbb950f06d0e6402f5d79291" style="width: 100.0%; height: 100.0%;">BÌNH - QL*, Phường Tân Thới Nhất, Quận 12</div>`)[0];
+                popup_b6740c2b321a2a39478d470205d9d0e9.setContent(html_84349520dbb950f06d0e6402f5d79291);
+            
+        
+
+        marker_8cc6a4a62880849a4d5bf1a580e788a3.bindPopup(popup_b6740c2b321a2a39478d470205d9d0e9)
+        ;
+
+        
+    
+    
+            var marker_2f6715c86ce702b5d7d769bcb1d14b86 = L.marker(
+                [10.8464989, 106.666088],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_a74121f2527527d8a27cdd6927c49a4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11249139803cd7a3c77f19f12141f1fe = $(`<div id="html_11249139803cd7a3c77f19f12141f1fe" style="width: 100.0%; height: 100.0%;">QUANG, Phường 16, Quận Gò Vấp</div>`)[0];
+                popup_a74121f2527527d8a27cdd6927c49a4d.setContent(html_11249139803cd7a3c77f19f12141f1fe);
+            
+        
+
+        marker_2f6715c86ce702b5d7d769bcb1d14b86.bindPopup(popup_a74121f2527527d8a27cdd6927c49a4d)
+        ;
+
+        
+    
+    
+            var marker_a823ef1a911c0b5b7714b38cf98cfa1f = L.marker(
+                [10.8525115, 106.6709227],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_291f5e7916039aeb995f5924689eee89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_064d39cc7b1bb00af2f73fda9a261a03 = $(`<div id="html_064d39cc7b1bb00af2f73fda9a261a03" style="width: 100.0%; height: 100.0%;">HÃNG, Phường 15, Quận Gò Vấp</div>`)[0];
+                popup_291f5e7916039aeb995f5924689eee89.setContent(html_064d39cc7b1bb00af2f73fda9a261a03);
+            
+        
+
+        marker_a823ef1a911c0b5b7714b38cf98cfa1f.bindPopup(popup_291f5e7916039aeb995f5924689eee89)
+        ;
+
+        
+    
+    
+            var marker_a3e95540632828e0e050c5fde8ef8f88 = L.marker(
+                [10.7716335, 106.6272497],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_320ed91fe0acc6cf196cf91354055a38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0c51ce9669ea5b2cf98e81d38f1c90c = $(`<div id="html_a0c51ce9669ea5b2cf98e81d38f1c90c" style="width: 100.0%; height: 100.0%;">ÂN, phường Hiệp Tân, Quận Tân Phú</div>`)[0];
+                popup_320ed91fe0acc6cf196cf91354055a38.setContent(html_a0c51ce9669ea5b2cf98e81d38f1c90c);
+            
+        
+
+        marker_a3e95540632828e0e050c5fde8ef8f88.bindPopup(popup_320ed91fe0acc6cf196cf91354055a38)
+        ;
+
+        
+    
+    
+            var marker_351545f4d1d7b2bc3f127d9dd6a6912f = L.marker(
+                [10.8187905, 106.6791511],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_44caa7e5c15aace468aee7e61453a714 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8736e90298c41e390755446fd0163ea = $(`<div id="html_e8736e90298c41e390755446fd0163ea" style="width: 100.0%; height: 100.0%;">NHÂN, Phường 13, Quận Gò Vấp</div>`)[0];
+                popup_44caa7e5c15aace468aee7e61453a714.setContent(html_e8736e90298c41e390755446fd0163ea);
+            
+        
+
+        marker_351545f4d1d7b2bc3f127d9dd6a6912f.bindPopup(popup_44caa7e5c15aace468aee7e61453a714)
+        ;
+
+        
+    
+    
+            var marker_30b5ee27e0706def0c3ec6ec50ac41c8 = L.marker(
+                [10.8187905, 106.6791511],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_be953de72e04acfeb17ad277878fa644 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fc78d84d72e51d529d984b06c2c9381 = $(`<div id="html_1fc78d84d72e51d529d984b06c2c9381" style="width: 100.0%; height: 100.0%;">ĐỨC, Phường 13, Quận Gò Vấp</div>`)[0];
+                popup_be953de72e04acfeb17ad277878fa644.setContent(html_1fc78d84d72e51d529d984b06c2c9381);
+            
+        
+
+        marker_30b5ee27e0706def0c3ec6ec50ac41c8.bindPopup(popup_be953de72e04acfeb17ad277878fa644)
+        ;
+
+        
+    
+    
+            var marker_7912e8e1c4b0ba655cdeb9770f7d098d = L.marker(
+                [10.7191906, 106.6236163],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_68b3433e43fe63e6a6e12d9c0ffacbed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c534574f5bc9ba22a509b2f4509f406 = $(`<div id="html_8c534574f5bc9ba22a509b2f4509f406" style="width: 100.0%; height: 100.0%;">GIANG - QL*, Phường 16, Quận 8</div>`)[0];
+                popup_68b3433e43fe63e6a6e12d9c0ffacbed.setContent(html_8c534574f5bc9ba22a509b2f4509f406);
+            
+        
+
+        marker_7912e8e1c4b0ba655cdeb9770f7d098d.bindPopup(popup_68b3433e43fe63e6a6e12d9c0ffacbed)
+        ;
+
+        
+    
+    
+            var marker_3abbb92ca1414bd21a8278795d41e593 = L.marker(
+                [10.812483, 106.6237735],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_fbf86a3f3c5fa804243bd1ae4dbbcbf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d98885c5b711e941547d8c358da5eb8f = $(`<div id="html_d98885c5b711e941547d8c358da5eb8f" style="width: 100.0%; height: 100.0%;">HƯƠNG, Phường Tây Thạnh, Quận Tân Phú</div>`)[0];
+                popup_fbf86a3f3c5fa804243bd1ae4dbbcbf4.setContent(html_d98885c5b711e941547d8c358da5eb8f);
+            
+        
+
+        marker_3abbb92ca1414bd21a8278795d41e593.bindPopup(popup_fbf86a3f3c5fa804243bd1ae4dbbcbf4)
+        ;
+
+        
+    
+    
+            var marker_9e1fd71006bdf93821abf4ee9451d2b6 = L.marker(
+                [10.8275313, 106.693511],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_0cf59498e191004fde40343ca74b6d51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb8c85f2bd44b59d9b9829de63101786 = $(`<div id="html_fb8c85f2bd44b59d9b9829de63101786" style="width: 100.0%; height: 100.0%;">PHỦ, Phường 5, Quận Gò Vấp</div>`)[0];
+                popup_0cf59498e191004fde40343ca74b6d51.setContent(html_fb8c85f2bd44b59d9b9829de63101786);
+            
+        
+
+        marker_9e1fd71006bdf93821abf4ee9451d2b6.bindPopup(popup_0cf59498e191004fde40343ca74b6d51)
+        ;
+
+        
+    
+    
+            var marker_59b588a7f6556bb80812b22a699c00b7 = L.marker(
+                [10.8521046, 106.7215346],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_823503aaa2e67271ff4658cfee2c1781 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86a73c84a8a906a168dc1d6cd8f1d1ec = $(`<div id="html_86a73c84a8a906a168dc1d6cd8f1d1ec" style="width: 100.0%; height: 100.0%;">HIỂU, phường Hiệp Bình Phước, Thành phố Thủ Đức</div>`)[0];
+                popup_823503aaa2e67271ff4658cfee2c1781.setContent(html_86a73c84a8a906a168dc1d6cd8f1d1ec);
+            
+        
+
+        marker_59b588a7f6556bb80812b22a699c00b7.bindPopup(popup_823503aaa2e67271ff4658cfee2c1781)
+        ;
+
+        
+    
+    
+            var marker_fa968aea52293e854273ae1768fb16c1 = L.marker(
+                [10.8428486, 106.6309776],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_d7184c7574720dcba800769b60574e73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_016346301a38a4968f371fec7fbdb87d = $(`<div id="html_016346301a38a4968f371fec7fbdb87d" style="width: 100.0%; height: 100.0%;">THỦY, phường Đông Hưng Thuận, Quận 12</div>`)[0];
+                popup_d7184c7574720dcba800769b60574e73.setContent(html_016346301a38a4968f371fec7fbdb87d);
+            
+        
+
+        marker_fa968aea52293e854273ae1768fb16c1.bindPopup(popup_d7184c7574720dcba800769b60574e73)
+        ;
+
+        
+    
+    
+            var marker_06244a89e8f12e25ccc2d5f6227d6618 = L.marker(
+                [10.8006376, 106.6586207],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_a7df6f3b4683bf849babce4171c874f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_120bbfbbf14f3cba37333d9de748ba04 = $(`<div id="html_120bbfbbf14f3cba37333d9de748ba04" style="width: 100.0%; height: 100.0%;">LAN, Phường 4, Quận Tân Bình</div>`)[0];
+                popup_a7df6f3b4683bf849babce4171c874f1.setContent(html_120bbfbbf14f3cba37333d9de748ba04);
+            
+        
+
+        marker_06244a89e8f12e25ccc2d5f6227d6618.bindPopup(popup_a7df6f3b4683bf849babce4171c874f1)
+        ;
+
+        
+    
+    
+            var marker_e91979517a9c803957d8fc64ea6a6fe0 = L.marker(
+                [10.8008414, 106.6885708],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_2e869208ce13869865bc85e647b689e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5db9a4801b5f8de0ecd2bb25ad5e3b19 = $(`<div id="html_5db9a4801b5f8de0ecd2bb25ad5e3b19" style="width: 100.0%; height: 100.0%;">THÙY, Phường 7, Quận Phú Nhuận</div>`)[0];
+                popup_2e869208ce13869865bc85e647b689e5.setContent(html_5db9a4801b5f8de0ecd2bb25ad5e3b19);
+            
+        
+
+        marker_e91979517a9c803957d8fc64ea6a6fe0.bindPopup(popup_2e869208ce13869865bc85e647b689e5)
+        ;
+
+        
+    
+    
+            var marker_c9935fa6e22a3f56f75689185c901e4d = L.marker(
+                [10.784004, 106.6078353],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_6cce412cab7ba20a0ac629d291ea87d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3c7b64ad0017068d1b5e1337d45e597 = $(`<div id="html_b3c7b64ad0017068d1b5e1337d45e597" style="width: 100.0%; height: 100.0%;">KIỂU - QL*, Phường Bình Hưng Hòa A, Quận Bình Tân</div>`)[0];
+                popup_6cce412cab7ba20a0ac629d291ea87d9.setContent(html_b3c7b64ad0017068d1b5e1337d45e597);
+            
+        
+
+        marker_c9935fa6e22a3f56f75689185c901e4d.bindPopup(popup_6cce412cab7ba20a0ac629d291ea87d9)
+        ;
+
+        
+    
+    
+            var marker_f5eb3f7e1560cd8a3f8b360eeefe3add = L.marker(
+                [10.7566666, 106.6804647],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_102ce0aa11e9bee9adbd66b047e3e9c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41c2aca5a4e1128e5a8c27a323355aa1 = $(`<div id="html_41c2aca5a4e1128e5a8c27a323355aa1" style="width: 100.0%; height: 100.0%;">TRÂN, Phường 2, Quận 5</div>`)[0];
+                popup_102ce0aa11e9bee9adbd66b047e3e9c3.setContent(html_41c2aca5a4e1128e5a8c27a323355aa1);
+            
+        
+
+        marker_f5eb3f7e1560cd8a3f8b360eeefe3add.bindPopup(popup_102ce0aa11e9bee9adbd66b047e3e9c3)
+        ;
+
+        
+    
+    
+            var marker_056ac5c4b19b28c608ae8dc9fd8e0669 = L.marker(
+                [10.857921, 106.754837],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_a7a62da09f9cc54fd81c380680dd3627 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29d076469152d32739da9bf22b5441fa = $(`<div id="html_29d076469152d32739da9bf22b5441fa" style="width: 100.0%; height: 100.0%;">NGÂN, phường Linh Tây, Thành phố Thủ Đức</div>`)[0];
+                popup_a7a62da09f9cc54fd81c380680dd3627.setContent(html_29d076469152d32739da9bf22b5441fa);
+            
+        
+
+        marker_056ac5c4b19b28c608ae8dc9fd8e0669.bindPopup(popup_a7a62da09f9cc54fd81c380680dd3627)
+        ;
+
+        
+    
+    
+            var marker_16dc4c039ca6d911385a2e6d0eef8b08 = L.marker(
+                [10.7967333, 106.7460162],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_454b17740da2b06f2e74627cda8ee9c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53a0d82f69b9e01f346065f0109bd9db = $(`<div id="html_53a0d82f69b9e01f346065f0109bd9db" style="width: 100.0%; height: 100.0%;">PHONG-QL*, Phường An Phú, Quận 2</div>`)[0];
+                popup_454b17740da2b06f2e74627cda8ee9c3.setContent(html_53a0d82f69b9e01f346065f0109bd9db);
+            
+        
+
+        marker_16dc4c039ca6d911385a2e6d0eef8b08.bindPopup(popup_454b17740da2b06f2e74627cda8ee9c3)
+        ;
+
+        
+    
+    
+            var marker_71d36e5f82f7d7f3a36c9c38cd44b526 = L.marker(
+                [10.8036306, 106.6428279],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_6868bc669c6ec1da0607a9ce917c272d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a4a54100fca6c055632d27359358135 = $(`<div id="html_2a4a54100fca6c055632d27359358135" style="width: 100.0%; height: 100.0%;">CHƯƠNG - QL*, Phường 13, Quận Tân Bình</div>`)[0];
+                popup_6868bc669c6ec1da0607a9ce917c272d.setContent(html_2a4a54100fca6c055632d27359358135);
+            
+        
+
+        marker_71d36e5f82f7d7f3a36c9c38cd44b526.bindPopup(popup_6868bc669c6ec1da0607a9ce917c272d)
+        ;
+
+        
+    
+    
+            var marker_4d4c6f409c8124893b0f082cd8256881 = L.marker(
+                [10.823527, 106.6355752],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_72da2e456371e01e393ad43e686c5c8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26df2926cd80cee8c9236b6d7f7f7490 = $(`<div id="html_26df2926cd80cee8c9236b6d7f7f7490" style="width: 100.0%; height: 100.0%;">THU, Phường 15, Quận Tân Bình</div>`)[0];
+                popup_72da2e456371e01e393ad43e686c5c8f.setContent(html_26df2926cd80cee8c9236b6d7f7f7490);
+            
+        
+
+        marker_4d4c6f409c8124893b0f082cd8256881.bindPopup(popup_72da2e456371e01e393ad43e686c5c8f)
+        ;
+
+        
+    
+    
+            var marker_453af231f5a68e301d482f50abed3d7f = L.marker(
+                [10.8322102, 106.7247962],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_56c10ae2e2f6c943e535956b6c179ab1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68ee9b7cc0f55225fabfcb92c1f14bec = $(`<div id="html_68ee9b7cc0f55225fabfcb92c1f14bec" style="width: 100.0%; height: 100.0%;">DANH, Phường Hiệp Bình Chánh, Thành phố Thủ Đức</div>`)[0];
+                popup_56c10ae2e2f6c943e535956b6c179ab1.setContent(html_68ee9b7cc0f55225fabfcb92c1f14bec);
+            
+        
+
+        marker_453af231f5a68e301d482f50abed3d7f.bindPopup(popup_56c10ae2e2f6c943e535956b6c179ab1)
+        ;
+
+        
+    
+    
+            var marker_e269fa170d99ce8be5f083758c02198a = L.marker(
+                [10.7586482, 106.6709375],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_0b6a2d9817838ec56924efec0d0b250a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e417ad057e50f267cd5d2e0a90030c46 = $(`<div id="html_e417ad057e50f267cd5d2e0a90030c46" style="width: 100.0%; height: 100.0%;">AN, Phường 9, Quận 5</div>`)[0];
+                popup_0b6a2d9817838ec56924efec0d0b250a.setContent(html_e417ad057e50f267cd5d2e0a90030c46);
+            
+        
+
+        marker_e269fa170d99ce8be5f083758c02198a.bindPopup(popup_0b6a2d9817838ec56924efec0d0b250a)
+        ;
+
+        
+    
+    
+            var marker_7e5c294040b7f5b84e0ee881799fdcd2 = L.marker(
+                [10.8606184, 106.5694427],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_e45dbef7e53784407e9da8c6a10d0af7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcfc2fa481d252650a490a21b320aa79 = $(`<div id="html_dcfc2fa481d252650a490a21b320aa79" style="width: 100.0%; height: 100.0%;">BẢO, Xã Xuân Thới Thượng, Hóc Môn</div>`)[0];
+                popup_e45dbef7e53784407e9da8c6a10d0af7.setContent(html_dcfc2fa481d252650a490a21b320aa79);
+            
+        
+
+        marker_7e5c294040b7f5b84e0ee881799fdcd2.bindPopup(popup_e45dbef7e53784407e9da8c6a10d0af7)
+        ;
+
+        
+    
+    
+            var marker_9b3ce9ebcb9917d29893b168dec6b7bb = L.marker(
+                [10.8549056, 106.6146723],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_7dcdd5ba7a6a6bd46f1889630be7a4bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09f636faf407858ca304b8c8283ed269 = $(`<div id="html_09f636faf407858ca304b8c8283ed269" style="width: 100.0%; height: 100.0%;">PHƯỚC, Phường Trung Mỹ Tây, Quận 12</div>`)[0];
+                popup_7dcdd5ba7a6a6bd46f1889630be7a4bc.setContent(html_09f636faf407858ca304b8c8283ed269);
+            
+        
+
+        marker_9b3ce9ebcb9917d29893b168dec6b7bb.bindPopup(popup_7dcdd5ba7a6a6bd46f1889630be7a4bc)
+        ;
+
+        
+    
+    
+            var marker_bb746ca116ad02e76eaf67598ae9bfc4 = L.marker(
+                [10.823527, 106.6355752],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_ce8db3c23d6bba05ea2a2419c576a688 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fbc58282533ad267659656bbadd8a40 = $(`<div id="html_5fbc58282533ad267659656bbadd8a40" style="width: 100.0%; height: 100.0%;">HUY, Phường 15, Quận Tân Bình</div>`)[0];
+                popup_ce8db3c23d6bba05ea2a2419c576a688.setContent(html_5fbc58282533ad267659656bbadd8a40);
+            
+        
+
+        marker_bb746ca116ad02e76eaf67598ae9bfc4.bindPopup(popup_ce8db3c23d6bba05ea2a2419c576a688)
+        ;
+
+        
+    
+    
+            var marker_aa45b20881bcfc2ae3500fbcd92e96ab = L.marker(
+                [10.823527, 106.6355752],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_21ba0eccee07f80629daa6aa96f88d37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ceb26659a56d63ffe0dc570ed6ec65ec = $(`<div id="html_ceb26659a56d63ffe0dc570ed6ec65ec" style="width: 100.0%; height: 100.0%;">THU MINHΗ, Phường 15, Quận Tân Bình</div>`)[0];
+                popup_21ba0eccee07f80629daa6aa96f88d37.setContent(html_ceb26659a56d63ffe0dc570ed6ec65ec);
+            
+        
+
+        marker_aa45b20881bcfc2ae3500fbcd92e96ab.bindPopup(popup_21ba0eccee07f80629daa6aa96f88d37)
+        ;
+
+        
+    
+    
+            var marker_f30bb42fb898a74d85a4c1ac1e2ba35a = L.marker(
+                [10.7704108, 106.6793704],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_d9d879ee018447de5cd314d1ad5483dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9de2bad4c4835e4878a494f272882cf2 = $(`<div id="html_9de2bad4c4835e4878a494f272882cf2" style="width: 100.0%; height: 100.0%;">TRÍ - QL*, Phường 3, Quận 3</div>`)[0];
+                popup_d9d879ee018447de5cd314d1ad5483dd.setContent(html_9de2bad4c4835e4878a494f272882cf2);
+            
+        
+
+        marker_f30bb42fb898a74d85a4c1ac1e2ba35a.bindPopup(popup_d9d879ee018447de5cd314d1ad5483dd)
+        ;
+
+        
+    
+    
+            var marker_a278e90b9e439c5d8c46a21b9239c9f2 = L.marker(
+                [10.8678527, 106.6231544],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_0557b39cd2099157d772a42ace192655 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd18cc4c58d2ce5b060ce47e140ad1f = $(`<div id="html_1cd18cc4c58d2ce5b060ce47e140ad1f" style="width: 100.0%; height: 100.0%;">VĂN MINH, Phường Tân Chánh Hiệp, Quận 12</div>`)[0];
+                popup_0557b39cd2099157d772a42ace192655.setContent(html_1cd18cc4c58d2ce5b060ce47e140ad1f);
+            
+        
+
+        marker_a278e90b9e439c5d8c46a21b9239c9f2.bindPopup(popup_0557b39cd2099157d772a42ace192655)
+        ;
+
+        
+    
+    
+            var marker_efc7bb21901bc8f6e8ff145170037ede = L.marker(
+                [10.8391193, 106.6614456],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_8bca021b39f1db338117e05112a5070a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c23b2df3a7c70241a28e106c898b624d = $(`<div id="html_c23b2df3a7c70241a28e106c898b624d" style="width: 100.0%; height: 100.0%;">THƯƠNG - QL*, Phường 11, Quận Gò Vấp</div>`)[0];
+                popup_8bca021b39f1db338117e05112a5070a.setContent(html_c23b2df3a7c70241a28e106c898b624d);
+            
+        
+
+        marker_efc7bb21901bc8f6e8ff145170037ede.bindPopup(popup_8bca021b39f1db338117e05112a5070a)
+        ;
+
+        
+    
+    
+            var marker_f0983cde2b0ce8bbcc480d17b769deae = L.marker(
+                [10.8275313, 106.693511],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_0269bf52af90b590d39432b09038c06c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50d23e5523efdc4774fef2b9752b5af9 = $(`<div id="html_50d23e5523efdc4774fef2b9752b5af9" style="width: 100.0%; height: 100.0%;">TRÍ THANH, Phường 5, Quận Gò Vấp</div>`)[0];
+                popup_0269bf52af90b590d39432b09038c06c.setContent(html_50d23e5523efdc4774fef2b9752b5af9);
+            
+        
+
+        marker_f0983cde2b0ce8bbcc480d17b769deae.bindPopup(popup_0269bf52af90b590d39432b09038c06c)
+        ;
+
+        
+    
+    
+            var marker_eb55db8d371d41848bf847042475ec8b = L.marker(
+                [10.8306721, 106.6151355],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_d11a0ce5dd009d03c76faca02aec4bcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a89a9d9ad9e6019644900f7eb829fbc = $(`<div id="html_1a89a9d9ad9e6019644900f7eb829fbc" style="width: 100.0%; height: 100.0%;">KIM GIANG - QL*, Phường Tân Thới Nhất, Quận 12</div>`)[0];
+                popup_d11a0ce5dd009d03c76faca02aec4bcd.setContent(html_1a89a9d9ad9e6019644900f7eb829fbc);
+            
+        
+
+        marker_eb55db8d371d41848bf847042475ec8b.bindPopup(popup_d11a0ce5dd009d03c76faca02aec4bcd)
+        ;
+
+        
+    
+    
+            var marker_cba69f8e2140ea04e0c41392eec9a6bd = L.marker(
+                [10.8391193, 106.6614456],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_9a25907441689c1d2ab7474f17e13c77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea0cdb77eb334b69002c8ac26949b1cb = $(`<div id="html_ea0cdb77eb334b69002c8ac26949b1cb" style="width: 100.0%; height: 100.0%;">LONG, Phường 11, Quận Gò Vấp</div>`)[0];
+                popup_9a25907441689c1d2ab7474f17e13c77.setContent(html_ea0cdb77eb334b69002c8ac26949b1cb);
+            
+        
+
+        marker_cba69f8e2140ea04e0c41392eec9a6bd.bindPopup(popup_9a25907441689c1d2ab7474f17e13c77)
+        ;
+
+        
+    
+    
+            var marker_0e6390aa5660aae2f4fb6da405200b52 = L.marker(
+                [10.7294201, 106.7348597],
+                {
+}
+            ).addTo(map_b2812ab2d171bc5ec46c9464dbe43d3a);
+        
+    
+        var popup_d25ba916cbb0822a597a2056dca9a327 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4563b04f34b4824e9fda3004c120e8cd = $(`<div id="html_4563b04f34b4824e9fda3004c120e8cd" style="width: 100.0%; height: 100.0%;">DƯƠNG, Phường Phú Thuận, Quận 7</div>`)[0];
+                popup_d25ba916cbb0822a597a2056dca9a327.setContent(html_4563b04f34b4824e9fda3004c120e8cd);
+            
+        
+
+        marker_0e6390aa5660aae2f4fb6da405200b52.bindPopup(popup_d25ba916cbb0822a597a2056dca9a327)
+        ;
+
+        
+    
+</script>
+</html>
